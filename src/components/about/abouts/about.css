@@ -1,0 +1,46 @@
+.about_title {
+    color: rgb(57,86,222);
+    margin-top: 15%;
+  }
+  
+  .about_button {
+    border-radius: 25px;
+    background-color:rgb(57,86,222);
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* border-color: #f87158; */
+    border: 1px solid  rgb(57,86,222);
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 0%;
+    color: white;
+    font-size: 20px;
+  
+  }
+
+  .about_button:hover{
+    transform: scale(1.05) !important;
+  }
+  
+  
+  .about_content {
+    line-height: 200%;
+  }
+  
+  .about_image {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+  
+  .about_image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .about_pic {
+    background-image: url("../../asssets/about/about\ wallpaper.png");
+    width: 100%;
+  } */

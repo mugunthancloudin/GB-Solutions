@@ -1,0 +1,51 @@
+.teampic{
+    height: 40vh;
+    width: 100%;
+ }
+ 
+ .container1{
+     align-items: center;
+     padding: 30px;
+     position: relative;
+     
+ }
+ 
+ .container1 .card{
+     position: relative;
+     width: 100%;
+     height: 50vh;
+     background-color:white;
+     padding: 5% 8%;
+     
+ }
+
+ .container1 .card .team{
+    position: relative;
+    top: -10%;
+}
+
+.container1 .card .content{
+    position: relative;
+    margin-top: -50%;
+    text-align: center;
+    visibility: hidden;
+    /* opacity: 0; */
+    transition: 0.3s ease-in-out;
+}
+
+.container1 .card:hover .content{
+    height: 65vh;
+    visibility: visible;
+
+    margin-top: 0%;
+    transition-delay: 0.3s;
+}
+
+.container1 .card:hover{
+    height: 65vh;
+}
+
+
+.social:hover{
+    cursor: grab;
+}

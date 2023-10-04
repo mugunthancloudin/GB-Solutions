@@ -1,0 +1,32 @@
+  .home_bg_pg2 {
+    background-image: url("../../asssets/bannerPage/home-banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bannerSpam{
+    color: rgb(57,86,222);
+  }
+
+  .homeBtn{
+    background-color: rgb(96,119,229);
+    color: white;
+    font-weight: 400;
+    border-color: blue;
+  }
+  .home_text {
+    font-weight: 600;
+    padding-top: 25%;
+
+  }
+  
+  .pg2_profile {
+    width: 100%;
+    padding: 0%;
+    margin-top: 10%;
+  }
+  
+  .home_h1 {
+    margin-left: 0%;
+    font-size: 30px;
+  }

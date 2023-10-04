@@ -1,0 +1,30 @@
+.nav :hover{
+    
+    color:white;
+    font-size: large;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.navbar{
+    background-color: rgb(116, 203, 250);
+}
+
+/* Define the keyframes for the glow effect with a pleasant color (e.g., gold) */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold;
+    }
+    50% {
+        text-shadow: 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+    }
+    100% {
+        text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold;
+    }
+}
+
+/* Apply the glow animation on hover */
+.glow-on-hover:hover {
+    animation: glow 1s infinite;
+    color: red; /* Set the text color to the same pleasant color */
+}
