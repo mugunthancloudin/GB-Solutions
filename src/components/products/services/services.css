@@ -1,0 +1,74 @@
+.services_p1{
+    font-size: small;
+}
+.services_h3{
+    margin-top: 20%;
+}
+
+.services_p{
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  top: 0;
+  right: 1;
+  background-color: rgb(6,156,225);
+  border-radius: 0 0px 70px 0px;
+}
+
+.go-arrow {
+  margin-top: -10px;
+  margin-right: 5px;
+  color: white;
+  font-weight: 700;
+  
+}
+
+.card01 {
+  display: block;
+  position: relative;
+ 
+  background-color: #f2f8f9;
+  border-radius: 20px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 95%;
+    background: rgb(6,156,225);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(30);
+  }
+}
+
+.card01:hover {
+ .services_h3 {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .services_p{
+    transition: all 0.3s ease-out;
+    color: #ffffff;
+  }
+}

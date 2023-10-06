@@ -1,0 +1,59 @@
+
+.devButtons{
+    border-radius: 20px 0px 20px 20px;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.devButtons:hover{
+    border-radius: 20px 0px 20px 20px;
+    margin-top: 10%;
+    background-color: rgb(68, 76, 223);
+    color: white;
+}
+
+.test:hover{
+    padding-left: 20%;
+}
+
+.dev{
+    background-color: rgb(245, 249, 255);
+}
+
+.horzontalLine{ 
+    height: 3px; 
+    width: 50px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.horzontalLine01{ 
+    height: 3px; 
+    width: 30px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+.devButtons01{
+    border-radius: 20px 0px 20px 20px;
+    margin-top: 10%;
+    background-color: rgb(68, 76, 223);
+    color: white;
+}
+.devProfile{
+    width: 100%;
+}
+.devProfile {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}

@@ -1,0 +1,47 @@
+.features_h5{
+    margin-top: 20%;
+    font-weight: 500;
+    color: rgb(31,70,127);
+    font-style: italic;  
+}
+
+.features_h2{
+    font-weight: 700;
+}
+
+.features_p{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.feature:hover{
+    color: rgb(52,57,150);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.featureProfile{
+    width: 70%; 
+}
+
+.featureProfile {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+.featuresTag{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
