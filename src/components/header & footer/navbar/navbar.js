@@ -3,15 +3,14 @@ import "./navbar.css"
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-// import logo from "./images/VR_Logo.svg";
-import brandLogo from "../../asssets/Header&Footer/gb-logo.png";
+import brandLogo from "../../asssets/Header&Footer/Logo-01.svg";
 import { Link } from "react-router-dom";
 
 export default function Nav_bar() {
   return (
     <>
       <Navbar className="navbar" sticky="top" expand="lg">
-        <Container fluid>
+        <Container >
           <NavLink href="/">
             <div className="d-flex">
             <img src={brandLogo} width={40} className="navlogo" />
@@ -23,7 +22,7 @@ export default function Nav_bar() {
 
           <NavbarCollapse
             id="navbar-dark-example"
-            className="justify-content-end fw-bold text-white  "
+            className="justify-content-end fw-bold   "
           >
             <Nav>
               

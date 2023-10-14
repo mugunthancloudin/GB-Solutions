@@ -8,7 +8,7 @@
 .devButtons:hover{
     border-radius: 20px 0px 20px 20px;
     margin-top: 10%;
-    background-color: rgb(68, 76, 223);
+    background-color: rgb(64,183,162);
     color: white;
 }
 
@@ -39,7 +39,7 @@
 .devButtons01{
     border-radius: 20px 0px 20px 20px;
     margin-top: 10%;
-    background-color: rgb(68, 76, 223);
+    background-color:rgb(64,183,162);
     color: white;
 }
 .devProfile{

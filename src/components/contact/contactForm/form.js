@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./form.css";
 import React from "react";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import contact from "../../asssets/contact/contact.png";
+import contact from "../../asssets/contact/Contactus_banner.svg";
 import { useForm } from "react-hook-form";
 
 function Form() {
@@ -20,14 +20,17 @@ function Form() {
           <div className="container-fluid p-0 mb-4">
             <div className="row text-center mt-3">
               <h2 className="fw-bold">Contact Us</h2>
-              <p>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit <br></br>laboriosam nisi commodi consequatur.</p>
+              <p>
+                Ut enim ad minima veniam quis nostrum exercitationem ullam
+                corporis suscipit <br></br>laboriosam nisi commodi consequatur.
+              </p>
             </div>
-            <div className="row">
-            <div className="col-lg-6  text-center ">
-                <img src={contact} className="contact_pic mt-3" />
+            
+            <div className="row me-4">
+              <div className="col-lg-6 text-center">
+                <img src={contact} className="contact_pic" />
                 <h2 className="fw-bold mt-4">Are You Facing Any Problem..?</h2>
-                {/* <p>It va esser tam simplic quam Occidental in fact it va esser Occidental angles quam un skeptic cambridge es.</p> */}
-                <div className="row contact_subrow mt-4">
+                <div className="row contact_subrow mt-4 ps-5">
                   <div className="col-lg-4 text-right">
                     <div className="d-flex justify-content-center">
                       <div className="contact_number">
@@ -59,22 +62,17 @@ function Form() {
                     </div>
                   </div>
                 </div>
-             </div>
-              
-              <div className="col-lg-6">
-                <div className="row">
-                  <div className="col-lg-12 text-start mt-3  ms-5 contact_h4">
-                    <h4>Get In Touch</h4>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-12 text-center mt-2">
-                  </div>
-                </div>
+              </div>
+
+              <div className="col-lg-6 ">
+                <div className="row text-start mt-3 contact_h4">
+                 
+                    <h4 className="">Get In Touch</h4>
                 
-                <div className="row">
-                  <div className="col-lg-1"></div>
-                  <div className="col-lg-10">
+                </div>
+
+                <div className="row  p-0 m-0">
+                 
                     <div className="card  contct_subcontainer">
                       <div className="card-body">
                         <div className="row">
@@ -190,10 +188,10 @@ function Form() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                 
+                  
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

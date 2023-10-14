@@ -10,9 +10,9 @@ import Gbazar from "../components/products/services/gbazar";
 export default function Product() {
   return (
     <>
+    
       <Nav_bar />
       <Features />
-      
       <Inventory />
       <Development />
       <Workspace/>

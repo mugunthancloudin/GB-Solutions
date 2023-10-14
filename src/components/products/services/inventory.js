@@ -7,8 +7,8 @@ export default function services() {
       <div className="container-fluid mt-5 mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4  col-md-6">
-              <h3>INVENTORY</h3>
+            <div className="col-lg-4  col-md-4">
+              <h3 className="service_title">INVENTORY</h3>
               <h6>CHANGE WAREHOUSE LIFE INTO PLANS</h6>
               <p className="services_p1">
                 Managing services has always been challenging, and trends in
@@ -27,7 +27,7 @@ export default function services() {
               </p>
             </div>
 
-            <div className="col-lg-4  col-md-6 mt-5">
+            <div className="col-lg-4  col-md-4 mt-5">
               <div className="card card01 mt-5">
                 <h3 className="text-center services_h3">Order Management</h3>
                 <p className="text-center services_p">
@@ -41,10 +41,10 @@ export default function services() {
               </div>
             </div>
 
-            <div className="col-lg-4  col-md-6 mt-5">
+            <div className="col-lg-4  col-md-4 mt-5">
               <div className="card card01 mt-5">
                 <h3 className="text-center services_h3">
-                  Warehouse & Stock room
+                  Warehouse
                 </h3>
                 <p className="text-center services_p">
                   Controls your stock in different warehouse or godowns
@@ -58,7 +58,7 @@ export default function services() {
             </div>
           </div>
          <div className="row">
-            <div className="col-lg-4  col-md-6">
+            <div className="col-lg-4  col-md-4">
               <div className="card card01 mt-3">
                 <h3 className="text-center services_h3">Barcode Scanning</h3>
                 <p className="text-center services_p">
@@ -72,7 +72,7 @@ export default function services() {
               </div>
             </div>
 
-            <div className="col-lg-4  col-md-6">
+            <div className="col-lg-4  col-md-4">
               <div className="card card01  mt-3">
                 <h3 className="text-center services_h3">services Tracking</h3>
                 <p className="text-center services_p">
@@ -86,7 +86,7 @@ export default function services() {
               </div>
             </div>
 
-            <div className="col-lg-4  col-md-6">
+            <div className="col-lg-4  col-md-4">
               <div className="card card01  mt-3">
                 <h3 className="text-center services_h3">Reports</h3>
                 <p className="text-center services_p">

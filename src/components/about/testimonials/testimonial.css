@@ -29,7 +29,7 @@ body .testimonial .row .tabs li.active::before {
   content: "";
   width: 50px;
   height: 50px;
-  background-color: #71b85f;
+  background-color:rgb(64,183,162);
   border-radius: 50%;
 }
 body .testimonial .row .tabs li.active::after {
@@ -37,7 +37,7 @@ body .testimonial .row .tabs li.active::after {
   content: "";
   width: 30px;
   height: 30px;
-  background-color: #71b85f;
+  background-color: rgb(64,183,162);
   border-radius: 50%;
 }
 body .testimonial .row .tabs li:nth-child(1) {
@@ -104,7 +104,7 @@ body .testimonial .row .tabs li figure::after {
   z-index: -1;
   width: 100%;
   height: 100%;
-  border: 4px solid #dff9d9;
+  border: 4px solid rgb(178, 241, 229);
   border-radius: 50%;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);

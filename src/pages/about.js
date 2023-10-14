@@ -9,6 +9,7 @@ import Abouts from "../components/about/abouts/about"
 export default function About() {
   return (
     <>
+    
      <Nav_bar/>
      <Abouts/>
      {/* <Banner/> */}

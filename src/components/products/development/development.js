@@ -15,7 +15,7 @@ export default function Development() {
               <img src={devImage} className="devProfile" />
             </div>
             <div className="col-lg-6 pb-5 order-sm-1">
-              <h2 className="mb-0 pb-0">Design & Development</h2>
+              <h2 className="mb-0 pb-0 service_title">Design & Development</h2>
               <div className="d-flex mt-0 pt-0"><hr className="horzontalLine"/>
               <hr className="horzontalLine01"/></div>
               

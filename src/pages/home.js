@@ -11,6 +11,7 @@ import Banner from "../components/home/BannerPage/banner";
 export default function Home() {
   return (
     <>
+    
       <Nav_bar />
       <Banner/>
       {/* <Abouts/> */}

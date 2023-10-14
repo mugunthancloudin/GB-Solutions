@@ -10,6 +10,10 @@
     margin-top: 5%;
 }
 
+.service_title{
+  color: rgb(64,183,162);
+}
+
 .go-corner {
   display: flex;
   align-items: center;
@@ -20,7 +24,7 @@
   overflow: hidden;
   top: 0;
   right: 1;
-  background-color: rgb(6,156,225);
+  background-color: rgb(64,183,162);
   border-radius: 0 0px 70px 0px;
 }
 
@@ -48,7 +52,7 @@
     z-index: -1;
     top: 0px;
     right: 95%;
-    background: rgb(6,156,225);
+    background: rgb(64,183,162);
     height: 32px;
     width: 32px;
     border-radius: 32px;

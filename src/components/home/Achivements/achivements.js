@@ -79,7 +79,7 @@ export default function Achivements() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 mt-3">
+            <div className="col-lg-6 mt-5 pt-3">
               <Carousel>
                 <CarouselItem>
                   <img
