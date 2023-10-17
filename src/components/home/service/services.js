@@ -25,13 +25,14 @@ function Service() {
                 <div className="card mt-5 h-80 service_cards">
                   <div>
                     <div className="service_content_div">
-                      <h5 className="mt-3 text-center">Banking Assistance</h5>
-                      <p className="p-3 mt-4 service_page_p">
-                        Banking plays an virtual role in every industry, SO we
-                        as a company Understand the importance of this services,
-                        we posses a decade of working experience in banking
-                        service and creates
-                        a demand deposit.
+                      <h5 className="mt-3 text-center">Product Development</h5>
+                      <p className="p-3 mt-0 service_page_p">
+                        As a prominent product development company, we
+                        specialize in delivering cutting-edge solutions that
+                        cater to the unique requirements of business. Gbazaar,
+                        Inventory, and Workspace are a few products that we
+                        developed for small and large enterprises that will help
+                        them increase their productivity.
                       </p>
                     </div>
                     <div className="service_image_div">
@@ -49,10 +50,12 @@ function Service() {
                   <div className="service_content_div pt-5">
                     <h5 className="mt-5 text-center">Digital Marketing</h5>
                     <p className="p-3 mt- service_page_p">
-                      In this digitalized era, the best booming platform to
-                      showcase all the business in a digital market and many
-                      social media platforms where it can reach to millions of
-                      people.
+                      We are a digital marketing company equipped with
+                      professionals who fully leverage the power of digital
+                      media to promote your brand by creating brand awareness,
+                      engagement, and fidelity cost-effectively. Make your
+                      business visible worldwide with our digital marketing
+                      strategies.
                     </p>
                   </div>
                 </div>
@@ -61,15 +64,13 @@ function Service() {
               <div className="col-lg-3 col-md-6 mt-2">
                 <div className="card h-80 mt-5 service_cards">
                   <div className="service_content_div">
-                    <h5 className="mt-3 text-center">
-                      Bussiness Risk <br></br> Management
-                    </h5>
+                    <h5 className="mt-3 text-center">Web Design</h5>
                     <p className="p-3 mt-1 text-justify service_page_p">
-                      When a business is involved its always known for it's
-                      fortunes and also risk.so the risk or threat to the
-                      business may have it's roots due to financial issues,legal
-                      Liablities, and accidents or
-                      natural dissaster.
+                      If you are visiting this page, it means that you are
+                      seeking a partner who can provide the best custom web
+                      design services for your company. As a pioneer in website
+                      design, GB Corp. has emerged as the go-to company for
+                      thousands of companies in need of web-related services.
                     </p>
                   </div>
                   <div className="service_image_div">
@@ -84,18 +85,18 @@ function Service() {
                     <img src={icon4} className="service_page_icons" />
                   </div>
                   <div className="service_content_div pt-5">
-                    <h5 className="mt-5 text-center">
-                      Added Assistance <br></br> Service
-                    </h5>
+                    <h5 className="mt-5 text-center">Mobile App Development</h5>
                     <p className="p-3 mt-2 service_page_p">
-                      We realise that every business needs more than just the
-                      most basic services, so we offer a variety of additional
-                      support services to help our clients in a varity of areas.
+                      If you have a concept for an app, we have the resources to
+                      make it a reality. With the expertise we've gained as
+                      a leading Mobile App Development Company through working
+                      on various projects, we recognize that each app is unique
+                      and requires distinctive and distinct attention.
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
       </div>

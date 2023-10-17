@@ -1,12 +1,4 @@
-/* .service_background {
-    background-image: url("./images/services.svg");
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 80%;
-    margin-left: 20%;
-  } */
-  
-  .service_main {
+.service_main {
     font-weight: 500;
     color: #f87158;
   }
@@ -307,11 +299,6 @@
     margin-top: 20%;
   }
   }
-  /* story page */
-  
-  .service_h3 {
-    font-weight: 500;
-    color: #f87158;
-  }
+ 
   
  

@@ -9,18 +9,21 @@ export default function Banner() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h1 className="mt-5 home_text">
-                Create Amazing Landing <br></br>page with{" "}
-                <spam className="bannerSpam">US</spam>
-              </h1>
-              <p className="text-center mt-5">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                sequinesciunt.
+              <h3 className="mt-5 home_text">
+                Connect, Strategize, and Conquer the Digital World With
+                <spam className="bannerSpam"> GB Corp.</spam>
+              </h3>
+              <p className="text-start mt-4">
+                GB Corp's diverse solutions are what make us the one-stop IT
+                Solution partner for everyone from start-ups and SMBs to
+                high-profile multinational corporations.
               </p>
-              <div className="row mt-5">
+              <div className="row mt-4">
                 <div className="col-lg-8">
-                  <input type="text" className="homeInputBox form-control w-100 mt-2" />
+                  <input
+                    type="text"
+                    className="homeInputBox form-control w-100 mt-2"
+                  />
                 </div>
                 {/* <div className="col-lg-4"><button className="homeBtn w-75 mt-2">Subscribe</button></div> */}
                 <div className="col-lg-4">

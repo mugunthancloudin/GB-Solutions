@@ -3,6 +3,9 @@
     font-size: x-large;
 }
 
+.homeAbout{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .aboutcontainer_contact{
     background-color: rgb(67, 69, 158);
 }
