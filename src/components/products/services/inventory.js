@@ -7,32 +7,32 @@ export default function services() {
       <div className="container-fluid mt-5 mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4  col-md-4">
+            <div className="col-md-4">
               <h3 className="service_title">INVENTORY</h3>
-              <h6>CHANGE WAREHOUSE LIFE INTO PLANS</h6>
+              <h6>Organize, Track, Succeed: You’re Inventory Solution!!</h6>
               <p className="services_p1">
-                Managing services has always been challenging, and trends in
-                logistics management continue to make it harder every day.
-                Cloudin Labs services management system integrates seamlessly
-                with Business that helps in control of your Orders, services &
-                Returns through a single, real-time dashboard view of your
-                business- across channels & locations.
+                GB inventory tracking software makes it easy to manage your
+                entire inventory on any device, and anywhere. It is excellent
+                software that helps small and growing businesses smoothly
+                control their inventory across multiple channels and devices. A
+                single platform that gives you full control over consolidating
+                your inventory across channels.
               </p>
               <p className="services_p1">
-                Cloudin Labs easily track your services, know which items sell
-                fast, which items expire soon. It combines with desktop
-                software, barcode scanners, barcode labels and mobile devices
-                for a single stockroom or multiple warehouses spread across the
-                country.
+                Using GB Corp’s inventory management replaces guesswork with
+                accuracy, accountability, and development. Our powerful
+                inventory management system offers you complete control over
+                your inventory, helps you handle your inventory across various
+                channels, and eradicates the necessity for third-party software.
               </p>
             </div>
 
-            <div className="col-lg-4  col-md-4 mt-5">
+            <div className="col-md-4 ">
               <div className="card card01 mt-5">
                 <h3 className="text-center services_h3">Order Management</h3>
-                <p className="text-center services_p">
-                  Card description with lots of great facts and interesting
-                  details.
+                <p className="text-center services_p px-2">
+                  Determine how many products you have on hand by keeping track
+                  of your inventory.
                 </p>
 
                 <div class="go-corner" href="#">
@@ -41,14 +41,12 @@ export default function services() {
               </div>
             </div>
 
-            <div className="col-lg-4  col-md-4 mt-5">
-              <div className="card card01 mt-5">
-                <h3 className="text-center services_h3">
-                  Warehouse
-                </h3>
-                <p className="text-center services_p">
-                  Controls your stock in different warehouse or godowns
-                  centrally from Cloudin Labs services.
+            <div className="col-md-4 ">
+              <div className="card  card01 mt-5">
+                <h3 className="text-center services_h3">Warehouse</h3>
+                <p className="text-center services_p px-2">
+                  Manage orders and stocks of warehouses from a single system
+                  even if you have warehouses in different locations.
                 </p>
 
                 <div class="go-corner" href="#">
@@ -56,14 +54,13 @@ export default function services() {
                 </div>
               </div>
             </div>
-          </div>
-         <div className="row">
-            <div className="col-lg-4  col-md-4">
-              <div className="card card01 mt-3">
+
+            <div className=" col-md-4">
+              <div className="card h-100 card01 mt-3">
                 <h3 className="text-center services_h3">Barcode Scanning</h3>
-                <p className="text-center services_p">
-                  Compatible with different barcode scanners to set up easily
-                  barcode system and add SKUs, serial and batch numbers.
+                <p className="text-center services_p px-2">
+                  Get real-time updates on your inventory. This makes it easy to
+                  scan, track, and manage your inventory
                 </p>
 
                 <div class="go-corner" href="#">
@@ -72,12 +69,12 @@ export default function services() {
               </div>
             </div>
 
-            <div className="col-lg-4  col-md-4">
-              <div className="card card01  mt-3">
-                <h3 className="text-center services_h3">services Tracking</h3>
-                <p className="text-center services_p">
-                  Keep the track of spare parts, saleable items and even expiry
-                  dates with serial and batch tracking feature.
+            <div className=" col-md-4">
+              <div className="card h-100 card01  mt-3">
+                <h3 className="text-center services_h3">Inventory Tracking </h3>
+                <p className="text-center services_p px-2">
+                  It monitors the quantities, locations, and movements of their
+                  stock or goods. It prevents stockouts and overstocking.
                 </p>
 
                 <div class="go-corner" href="#">
@@ -86,12 +83,13 @@ export default function services() {
               </div>
             </div>
 
-            <div className="col-lg-4  col-md-4">
-              <div className="card card01  mt-3">
+            <div className="col-md-4">
+              <div className="card h-100 card01  mt-3">
                 <h3 className="text-center services_h3">Reports</h3>
-                <p className="text-center services_p">
-                  Know your services aging, vendor payments, sales details and
-                  services valuation from range of reports
+                <p className="text-center services_p px-2">
+                  Analyze reports to examine the sales trend, best-performing
+                  items, and more using simple yet accurate inventory reporting
+                  alternatives.
                 </p>
 
                 <div class="go-corner" href="#">
@@ -99,7 +97,7 @@ export default function services() {
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </>

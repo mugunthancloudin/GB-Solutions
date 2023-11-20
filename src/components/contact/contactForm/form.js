@@ -18,7 +18,7 @@ function Form() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="container-fluid p-0">
           <div className="container-fluid p-0 mb-4">
-            <div className="row text-center mt-3">
+            <div className="row mx-0 px-0 text-center mt-3">
               <h2 className="fw-bold">Contact Us</h2>
               <p>
                 Ut enim ad minima veniam quis nostrum exercitationem ullam
